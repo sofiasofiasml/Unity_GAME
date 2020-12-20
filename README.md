@@ -16,7 +16,7 @@ The course I have taken to learn unity is this [link here](https://youtu.be/Xg6T
 
 You need to install the unity component in visual studio 2019 for the suggestions to appear, this [Link](https://www.youtube.com/watch?v=g3sHbFmzq3I&ab_channel=qubodupDev) explains it.
 
-###### Second project (plane): 
+###### Challenge 1 (plane): 
 
  ![Demo CountPages alpha](/img/Hnet-image.gif)
  
