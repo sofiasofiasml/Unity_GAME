@@ -15,3 +15,11 @@ The course I have taken to learn unity is this [link here](https://youtu.be/Xg6T
 ### Solve the errors
 
 You need to install the unity component in visual studio 2019 for the suggestions to appear, this [Link](https://www.youtube.com/watch?v=g3sHbFmzq3I&ab_channel=qubodupDev) explains it.
+
+###### Second project (plane): 
+
+ ![Demo CountPages alpha](/img/Hnet-image.gif)
+ 
+ - [x] ctrl or left mouse: run plane and rotate propeller
+ - [x] w or up arrow/s or down arrow: up and down plane
+ - [x] a or left arrow/d or right arrow: left and right plane 
