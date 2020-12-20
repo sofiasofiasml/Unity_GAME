@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Challenge 1\Scripts\FollowPlayerX.cs" />
+    <Compile Include="Assets\Challenge 1\Scripts\PlayerControllerX.cs" />
     <Compile Include="Assets\Script\ControlCamera.cs" />
     <Compile Include="Assets\Script\ControlGamer.cs" />
     <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />

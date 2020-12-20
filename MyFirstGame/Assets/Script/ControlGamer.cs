@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class ControlGamer : MonoBehaviour
 {
-    public float velocity = 20.0f; //if this variable is public, you can change in unity program 
-    public float velocityTurn = 5;
-    public float controlHorizontal;
-    public float controlVertical; 
+    private float velocity = 20.0f; //if this variable is public, you can change in unity program 
+    private float velocityTurn = 25.0f; //turn velocity
+    private float controlHorizontal;
+    private float controlVertical; 
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +23,11 @@ public class ControlGamer : MonoBehaviour
 
         //changing the position of the van on the z-axis
         transform.Translate(Vector3.forward * Time.deltaTime * velocity * controlVertical);
-        transform.Translate(Vector3.right * Time.deltaTime * velocityTurn * controlHorizontal); 
+        
+        //move rigth and left
+        //transform.Translate(Vector3.right * Time.deltaTime * velocityTurn * controlHorizontal); 
+        
+        //roate in the y-axis
+        transform.Rotate(Vector3.up, Time.deltaTime * velocityTurn * controlHorizontal); 
     }
 }
