@@ -1459,6 +1459,7 @@ GameObject:
   - component: {fileID: -4370319632582821378}
   - component: {fileID: 7302776233732139099}
   - component: {fileID: 1553990015664547352}
+  - component: {fileID: 8001228918793990470}
   m_Layer: 0
   m_Name: Dog_Beagle_01
   m_TagString: Untagged
@@ -1473,8 +1474,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9035227964028497925}
-  m_LocalRotation: {x: -0.011767881, y: 0.99958235, z: -0.026393171, w: -0.00031072146}
-  m_LocalPosition: {x: -0.20928824, y: 0.010780394, z: 20.666292}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 20}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children:
   - {fileID: 9035227964028848097}
@@ -1516,7 +1517,7 @@ Transform:
   - {fileID: 9035227964028790743}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 3.025, y: 180, z: -1.3490001}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &9035227964019273895
 Animator:
   serializedVersion: 3
@@ -1569,7 +1570,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9035227964028497925}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.12486895, y: 0.27290124, z: 0.3083496}
@@ -1590,6 +1591,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8001228918793990470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9035227964028497925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589420089a1eadd4688f92e69ace575c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9035227964028498707
 GameObject:
   m_ObjectHideFlags: 0

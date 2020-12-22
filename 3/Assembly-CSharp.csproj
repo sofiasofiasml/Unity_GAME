@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AnimalFoodControl.cs" />
     <Compile Include="Assets\Scripts\DelatePrefabsOutside.cs" />
+    <Compile Include="Assets\Scripts\DetectorColisions.cs" />
     <Compile Include="Assets\Scripts\GamerControl.cs" />
     <Compile Include="Assets\Scripts\Generator.cs" />
     <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />

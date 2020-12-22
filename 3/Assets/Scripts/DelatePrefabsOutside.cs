@@ -16,8 +16,13 @@ public class DelatePrefabsOutside : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.z > limitSup || transform.position.z < limitInf)
+        if (transform.position.z > limitSup)
         {
+            Destroy(gameObject);
+        }
+        else if (transform.position.z < limitInf)
+        {
+            Debug.Log("Fin de Partida!");
             Destroy(gameObject);
         }
     }

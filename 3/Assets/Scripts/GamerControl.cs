@@ -8,7 +8,7 @@ public class GamerControl : MonoBehaviour
     public float horitzonalMov;
     public float rangeX = 21.0f;
     public GameObject pryectilPrefab;
-    public GameObject proyectilBoon;
+    //public GameObject proyectilBoon;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,11 +24,11 @@ public class GamerControl : MonoBehaviour
             Vector3 posProyectil = new Vector3(transform.position.x, pryectilPrefab.transform.position.y, transform.position.z); 
             Instantiate(pryectilPrefab, posProyectil, transform.rotation);
         }
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            Vector3 posProyectilBoon = new Vector3(transform.position.x, proyectilBoon.transform.position.y, transform.position.z);
-            Instantiate(proyectilBoon, posProyectilBoon, transform.rotation);
-        }
+        //if (Input.GetKeyDown(KeyCode.Return))
+        //{
+        //    Vector3 posProyectilBoon = new Vector3(transform.position.x, proyectilBoon.transform.position.y, transform.position.z);
+        //    Instantiate(proyectilBoon, posProyectilBoon, transform.rotation);
+        //}
         //limits in the x-axis
         if (transform.position.x < -rangeX)
         {
