@@ -21,11 +21,13 @@ public class GamerControl : MonoBehaviour
         //when you click space the food
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(pryectilPrefab, transform.position, transform.rotation);
+            Vector3 posProyectil = new Vector3(transform.position.x, pryectilPrefab.transform.position.y, transform.position.z); 
+            Instantiate(pryectilPrefab, posProyectil, transform.rotation);
         }
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            Instantiate(proyectilBoon, transform.position, transform.rotation);
+            Vector3 posProyectilBoon = new Vector3(transform.position.x, proyectilBoon.transform.position.y, transform.position.z);
+            Instantiate(proyectilBoon, posProyectilBoon, transform.rotation);
         }
         //limits in the x-axis
         if (transform.position.x < -rangeX)
