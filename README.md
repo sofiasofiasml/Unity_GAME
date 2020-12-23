@@ -20,6 +20,13 @@ The course I have taken to learn unity is this [link here](https://youtu.be/Xg6T
  - [x] w or up arrow/s or down arrow: up and down plane
  - [x] a or left arrow/d or right arrow: left and right plane 
 
+###### Challenge 2 (Dogs): 
+
+ ![Demo CountPages alpha](/img/GiftDogs.gif)
+ 
+ - [x] Space: Dogs appear, but between dog and dog we must wait 1 second
+ - When the prefabs go over the limits or the dog collides with the balls they are destroyed
+
 ### Solve the errors
 
 - You need to install the unity component in visual studio 2019 for the suggestions to appear, this [Link](https://www.youtube.com/watch?v=g3sHbFmzq3I&ab_channel=qubodupDev) explains it.
